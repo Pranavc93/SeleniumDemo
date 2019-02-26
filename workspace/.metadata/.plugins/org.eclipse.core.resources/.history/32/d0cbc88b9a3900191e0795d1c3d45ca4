@@ -1,0 +1,17 @@
+package selenium;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.Test;
+
+public class LaunchBrowser 
+
+{
+	@Test
+	public void openChrome() 
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\pranav.coimbatore\\Downloads\\geckodriver-v0.24.0-win32\\geckodriver.exe");
+		ChromeDriver driver=new ChromeDriver();
+		//FirefoxDriver driver=new FirefoxDriver();
+	}
+}

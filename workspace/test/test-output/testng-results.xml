@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27306" started-at="2019-02-26T09:54:43Z" finished-at="2019-02-26T09:55:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27306" started-at="2019-02-26T09:54:43Z" finished-at="2019-02-26T09:55:11Z">
+      <class name="com.tests.LaunchBrowser">
+        <test-method status="PASS" signature="openChrome()[pri:0, instance:com.tests.LaunchBrowser@2aafb23c]" name="openChrome" duration-ms="27281" started-at="2019-02-26T15:24:43Z" finished-at="2019-02-26T15:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+      </class> <!-- com.tests.LaunchBrowser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
